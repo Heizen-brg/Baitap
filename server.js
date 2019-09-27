@@ -16,7 +16,8 @@ server.get('/home/:page',(req,res,next) => {
 })
 
 server.get('/',(req,res,next)=>{
+    console.log('TEST')
     res.sendFile(path.join(__dirname,'/index.html')) 
 })
-server.use(express.static(path.join(__dirname,'public')));
+server.use('/public', express.static(path.join(__dirname,'public')));
 server.listen(process.env.port || port, () => console.log(`Done`))
