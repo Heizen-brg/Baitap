@@ -1,0 +1,24 @@
+{
+  "name": "26-9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect new.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heizen-brg/Baitap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Heizen-brg/Baitap/issues"
+  },
+  "homepage": "https://github.com/Heizen-brg/Baitap#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.4.1"
+  }
+}
